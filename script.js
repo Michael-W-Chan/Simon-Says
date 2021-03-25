@@ -85,12 +85,14 @@ function guess(btn){
   if(!gamePlaying){
     return;
   }
-  if(btn != )
+  if(btn != pattern[guessCounter]){
+    loseGame();
+  }
   if(btn = pattern[guessCounter]){
     guessCounter++;
   }
-  if(){
-     
+  if(guessCounter>progress){
+     progress++;
     if(progress == 8){
     winGame();
   }
