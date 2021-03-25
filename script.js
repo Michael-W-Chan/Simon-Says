@@ -89,6 +89,7 @@ function guess(btn){
     
     if(progress == 8){
     winGame();
+      stopGame();
   }
     playClueSequence();
   }
